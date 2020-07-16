@@ -41,3 +41,5 @@ doc/_build/
 # Everything on the data dir
 /data/
 
+# check files in notebooks:
+notebooks/.ipynb_checkpoints/
