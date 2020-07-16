@@ -23,8 +23,31 @@ Get LLC4320 data around the Maud rise in the SO
 Installation
 ------------
 
+No installation, just do:
+
+1. Clone repo:
+
+```
+git clone https://github.com/ocesaulo/maud_rise_data.git
+```
+
+2. Use conda to create an environment and install the need packages:
+
+```
+conda env create -f environment.yml
+```
+
 Usage/Example
 -----
+
+First activate the new env:
+
+```
+conda activate llcread_v2
+```
+
+Then fire up jupyter notebook and
+open the notebooks/maud_rise_data.ipynb and then run cells
 
 Requirements
 ^^^^^^^^^^^^
